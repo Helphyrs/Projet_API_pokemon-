@@ -1,0 +1,133 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: url(./images/pokemon-bg.jpg) no-repeat;
+    background-color: cover;
+    margin :0;
+    font-size: 1.6rem;
+    font-family:Arial,Helvetica,sans-serif;
+}
+
+#content-box {
+    width: 500px;
+    height:500px;
+    border: 1rem solid lightgray;
+    border-radius: 1rem;
+    display:flex;
+    background:url(./images/pokeball.jpg) no-repeat;
+    margin:6rem auto 0;
+}
+#pokemon-info {
+    width : 250px;
+    height : 500px ;
+    /*background-color: cyan;*/
+    text-align: center;
+}
+#pokemon-list {
+    width:250px ;
+    height:500px;
+  /*  background-color: yellow;*/
+    font-size: 1.8rem;
+    overflow-y:auto;
+}
+
+.pokemon-name {
+    border:0.1rem solid black;
+    background-color: #ffffff;
+    border-radius:1rem;
+    margin:0.5rem;
+    padding:0.5rem;
+}
+
+#pokemon-info img {
+    width:160px;
+    height:160px;
+    border : 0.1rem solid black;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    background-color: #ffffff;
+}
+#pokemon-types {
+    margin-top: 1rem;
+}
+
+.type-box {
+    padding: 0.3rem;
+    margin: 0.5rem;
+    border: 0.1rem solid black;
+    border-radius: 1rem;
+}
+
+.fire {
+    background-color: orange;
+    color:white;
+}
+.dragon {
+    background-color: #6b55cb;
+    color: #ffffff;
+}
+.water {
+    background-color: #399cff;
+    color: #ffffff;
+}
+.fighting {
+    background-color: #a55239;
+    color: #ffffff;
+}
+.grass {
+    background-color: #7bce52;
+    color: #ffffff;
+}
+.bug {
+    background-color: #adbd21;
+    color: #ffffff;
+}
+.electric {
+    background-color: #ffc631;
+    color: #ffffff;
+}
+.flying {
+    background-color: #9cadf7;
+    color: #ffffff;
+}
+.ghost {
+    background-color: #6060a1;
+    color: #ffffff;
+}
+.ground {
+    background-color: #f0c863;
+    color: #ffffff;
+}
+.ice {
+    background-color: #59c1d8;
+    color: #ffffff;
+}
+.normal {
+    background-color: #ada594;
+    color: #ffffff;
+}
+.poison {
+    background-color: #9e5892;
+    color: #ffffff;
+}
+.psychic {
+    background-color: #ff73a5;
+    color: #ffffff;
+}
+.rock {
+    background-color: #a48944;
+    color: #ffffff;
+}
+#pokemon-description {
+    width : 230px ;
+    height: 100px ;
+    background-color: #ffffff;
+    border: 0.1rem solid black ;
+    border-radius: 1rem;
+    margin : 0.5rem auto 0;
+    padding:1rem 0.2rem;
+    font-size: 1.8rem;
+    overflow-y:auto ;
+}
